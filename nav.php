@@ -23,7 +23,7 @@
         </div>
 
         <ul class="nav-menu">
-            <li class="nav-item"><a href="home.php" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
             <li class="nav-item dropdown">
                 <a href="#" class="nav-link">Services <i class="fas fa-caret-down"></i></a>
                 <div class="dropdown-menu">
