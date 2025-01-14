@@ -104,7 +104,7 @@
             <ul class="socials">
                 <li><a href="https://www.facebook.com/andy.mat.7923?mibextid=D4KYlr"><i class="fa-brands fa-facebook"></a></i></li>
                 <li><a href="https://twitter.com/VedantC78502629?t=ff8BC-lzqv54hNkJFxhppg&s=09"><i class="fa-brands fa-x-twitter"></i></a></li>
-                <li><a href="https://discord.gg/GqU9We45"><i class="fa-brands fa-discord"></i></a></li>
+                <li><a href="https://discord.gg/6KEzDD7N"><i class="fa-brands fa-discord"></i></a></li>
             </ul>
         </div>
         <div class="footer-bottom">
