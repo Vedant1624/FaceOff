@@ -1,0 +1,575 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+   
+}
+body{
+    background: rgba(0,0,0,0.7)url(../images/kenBack.jpg);
+    
+}
+span {
+    color: red;
+}
+
+@font-face {
+    font-family: Rakkas;
+    src: url(Rakkas-Regular.ttf);
+}
+
+@font-face {
+    font-family: YatraOne;
+    src: url(YatraOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rude;
+    src: url(Rude.ttf);
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(BebasNeue-Bold.otf);
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    margin: 0%;
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    color: white;
+    padding: 20px;
+}
+
+.content h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.content h1 {
+    color: white;
+    font-size: 65px;
+    font-family: 'Rakkas';
+    word-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    font-family: 'YatraOne';
+    margin-top: -10px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h4{
+    color: red;
+    letter-spacing: 2px;
+    font-size: 25px;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: 'Rude';
+}
+
+.main-mouse{
+    height: 90vh;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(18, 18, 18);
+    width: 100%;
+    padding: 30px 0px;
+}
+
+
+
+.main-keyboard{
+    height: 80vh;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(23, 22, 22);
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+
+
+
+.main-headphone{
+    height: 80vh;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background: rgb(18, 18, 18);
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.title-p h2{
+    text-align: center;
+    color: white;
+    font-size: 53px;
+    width: 1130px;
+    margin: 20px auto;
+    font-family: 'YatraOne';
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.card1,.card2,.card3{
+    border: 1px solid rgb(243, 54, 54);
+    display: flex;
+    border-radius: 14px;
+    flex-direction: column;
+    width: 350px;
+    margin: 10px 20px;
+    padding: 10px;
+}
+
+.card1:hover{
+    width: 360px;
+    transition: 0.4s;
+    box-shadow: 8px 8px 20px rgb(70, 36, 36);
+}
+.card2:hover{
+    width: 360px;
+    transition: 0.4s;
+    box-shadow: 8px 8px 20px rgb(70, 36, 36);
+}
+
+
+.caicon{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.main-mouse input{
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin: 10px -1px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+}
+
+.main-keyboard input{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.main-headphone input{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.about{
+    width: 100%;
+    
+   background-color: #101010;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+   
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.text{
+    margin-left: 5%;
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.text h2{
+    padding-top: 5%;
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'BebasNeue';
+}
+
+.text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'BebasNeue';
+}
+
+.text span{
+    font-family: 'BebasNeue';
+}
+
+.text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-size: 18px;
+    font-family: 'BebasNeue';
+    margin-bottom: 45px;
+}
+
+
+.service{
+    background: rgb(18, 18, 18);
+    width: 100%;
+    padding: 30px 0px;
+    
+}
+
+.title h2{
+    text-align: center;
+    color: white;
+    font-size: 53px;
+    width: 1130px;
+    margin: 20px auto;
+    
+   
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.cards{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #151515;
+    border-radius: 20px;
+    position: relative;
+    margin: 15px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.cards i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(203, 46, 46);
+}
+
+.cards a{
+    text-decoration: none;
+    color: white;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p{
+    color: rgb(92, 87, 87);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.cards img{
+    width: 20px;
+    height: 20px;
+    display: block;
+    align-items: center;
+    margin: 25px 0px;
+}
+
+
+footer{
+    position: absolute;
+
+   background: #1c1c1c;
+   height: auto;
+   width: 100%;
+  
+   padding-top: 40px;
+   column-gap: #fff;
+}
+
+.footer-content{
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    margin-bottom: 10px;
+    font-family: 'YatraOne';
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.footer-content span{
+    font-family: 'YatraOne';
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #fff;
+    font-family: 'LeagueSpartan';
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: red;
+}
+
+.footer-bottom{
+    margin-top: -40px;
+    background: #1c1c1c;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    color: #999;
+    text-transform: capitalize;
+    font-family: 'BebasNeue';
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
+    }
+
+    .content h1 {
+        font-size: 40px;
+        word-spacing: 3px;
+        line-height: 1.2;
+    }
+
+    .content h4 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    .content h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .main-mouse, .main-keyboard, .main-headphone {
+        height: auto;
+        padding: 20px 10px;
+    }
+
+    .title-p h2 {
+        width: 100%;
+        font-size: 35px;
+        padding: 0 15px;
+    }
+
+    .card1, .card2, .card3 {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .card1:hover, .card2:hover {
+        width: 90%;
+    }
+
+    /* About section responsive */
+    .main {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .about img {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .text {
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .text h2 {
+        font-size: 45px;
+    }
+
+    .text h5 {
+        font-size: 20px;
+    }
+
+    .text p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    /* Services section responsive */
+    .service .title h2 {
+        width: 100%;
+        font-size: 35px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    /* Footer responsive */
+    .footer-content {
+        padding: 20px;
+    }
+
+    .footer-content h3 {
+        font-size: 20px;
+    }
+
+    .footer-content p {
+        font-size: 14px;
+        padding: 0 15px;
+    }
+
+    .socials {
+        margin: 1rem 0 2rem 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content {
+        top: 45%;
+    }
+
+    .content h1 {
+        font-size: 32px;
+        word-spacing: 2px;
+    }
+
+    .content h4 {
+        font-size: 14px;
+    }
+
+    .content h3 {
+        font-size: 16px;
+    }
+
+    .text h2 {
+        font-size: 35px;
+    }
+
+    .cards {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .main-mouse input,
+    .main-keyboard input,
+    .main-headphone input {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Add this for background image responsiveness */
+@media screen and (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+

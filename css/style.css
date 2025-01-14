@@ -1,0 +1,200 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(LeagueGothic-Regular.otf);
+}
+@font-face {
+    font-family: YatraOne;
+    src: url(YatraOne-Regular.ttf);
+}
+
+
+td>img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+body{
+    background: rgba(0,0,0,0.7)url(../images/Back.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.cont h1{
+    text-align: center;
+    margin-top: 30px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 70px;
+    text-shadow: 4px 4px 10px #000000;
+    font-family: 'BebasNeue';
+    letter-spacing: 1px;
+}
+.table table{
+    border-radius: 15px;
+}
+
+.table{
+    border-radius: 15px;
+    padding: 20px;
+    border: none;
+    margin: 20px auto;
+    text-align: center;
+   /* border-collapse: collapse; */
+   background-color: #323232;
+   background: linear-gradient(0deg, #dc1212 10%, #010202 );
+   box-shadow: 0px 2px 12px rgba(15, 12, 12, 0.801);
+   color: aliceblue;
+   width: 100%;
+   max-width: 1200px;
+}
+
+td{
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+
+td button{
+    background-color: rgb(120, 3, 3);
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    text-decoration: none;
+    transition: .4s;
+    width: 100%;
+    max-width: 200px;
+} 
+
+td button:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    
+}
+
+td button a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+th{
+    background: rgba(195, 58, 195, 0);
+    padding: 1rem;
+    text-align: left;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+tr:nth-last-child(2n){
+    background: #dc1212;
+    border-radius: 10px;
+}
+.table select{
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    max-width: 250px;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+.table select :hover{
+    cursor: pointer;
+
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .cont h1 {
+        font-size: 40px;
+        margin-top: 90px; /* Space for fixed nav */
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .table {
+        padding: 10px;
+        margin: 10px auto;
+    }
+
+    td, th {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .table select {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    td button {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cont h1 {
+        font-size: 32px;
+    }
+
+    td, th {
+        padding: 6px 8px;
+        font-size: 13px;
+    }
+
+    .table select {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    td button {
+        padding: 6px 15px;
+        font-size: 13px;
+    }
+}
+
+/* Fix for background image on mobile */
+@media screen and (max-width: 768px) {
+    body {
+        background-attachment: fixed;
+    }
+}
+
+/* Table scroll indicator */
+.container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb {
+    background: #dc1212;
+    border-radius: 4px;
+}
+
+.container::-webkit-scrollbar-thumb:hover {
+    background: #a30e0e;
+}
