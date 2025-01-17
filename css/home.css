@@ -573,3 +573,140 @@ footer{
     }
 }
 
+/* Container width control */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Banner section */
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+    width: 100%;
+}
+
+/* Product sections */
+.main-mouse,
+.main-keyboard,
+.main-headphone {
+    padding: 60px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title-p {
+    width: 100%;
+}
+
+.title-p h2 {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto 40px;
+    padding: 0 20px;
+}
+
+/* Cards */
+.card1,
+.card2,
+.card3 {
+    flex: 0 1 350px;
+    max-width: 350px;
+    margin: 10px;
+}
+
+/* About section */
+.about {
+    padding: 80px 20px;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 50px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+/* Services section */
+.service {
+    padding: 60px 20px;
+}
+
+.title h2 {
+    max-width: 1440px;
+    margin: 0 auto 40px;
+}
+
+.box {
+    max-width: 1440px;
+    margin: 0 auto;
+    gap: 30px;
+}
+
+/* Footer */
+.footer-content {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Wide screen specific styles */
+@media screen and (min-width: 1441px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .content h1 {
+        font-size: 75px;
+    }
+
+    .content h4 {
+        font-size: 24px;
+    }
+
+    .content h3 {
+        font-size: 30px;
+    }
+
+    .main {
+        justify-content: center;
+    }
+
+    .about img {
+        max-width: 500px;
+        height: auto;
+    }
+
+    .cards {
+        max-width: 400px;
+    }
+}
+
+/* Keep existing media queries for smaller screens */
+@media screen and (max-width: 768px) {
+    /* ... existing mobile styles ... */
+}
+
+@media screen and (max-width: 480px) {
+    /* ... existing mobile styles ... */
+}
+
